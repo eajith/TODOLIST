@@ -1,0 +1,89 @@
+body{
+	background-color: yellow;
+}
+
+h1{
+	background-color: lawngreen;
+	padding: 10px 20px;
+	margin: 0; 
+	font-size: 24px;
+	font-weight: normal;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+span{
+	background-color: LightSalmon;
+	color:Lavender;
+	height: 40px;
+	margin-right: 20px;
+
+	text-align: center;
+	width: 0px;
+	display:inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+
+li:hover span{
+	width: 40px;
+	opacity:1.0;
+}
+
+.fa-plus{
+	float:right;
+}
+
+li{
+	background-color: LemonChiffon ;
+	height: 40px;
+	line-height: 40px;
+}
+
+li:nth-child(2n){
+	background-color: LightCoral;
+}
+
+input{
+	font-size: 18px;
+	background-color: MistyRose;
+	width: 100%;
+	color:LightCoral;
+	padding:8px 8px 8px 15px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+
+}
+
+body{
+	background: #FDFC47;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+input:focus{
+	border:3px solid LightCoral;
+	outline: none;
+}
+
+#container{
+	margin:100px auto;
+	background-color: LightCoral;
+	width:360px;
+	text-transform: uppercase;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.selected{
+	color:yellow;
+	text-decoration: line-through;
+}
+
